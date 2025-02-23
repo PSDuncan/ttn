@@ -12,7 +12,7 @@ export const headerData = {
     },
     {
       text: 'Love in Action',
-      href: getPermalink('/'),
+      href: getPermalink('/love-in-action'),
     },
     {
       text: 'Contact',
@@ -24,20 +24,20 @@ export const headerData = {
       links: [
         {
           text: 'Upcoming Events',
-          href: getPermalink('/'),
+          href: getPermalink('/events/upcoming-events'),
         },
         {
           text: 'Past Campaigns',
-          href: getPermalink('/'),
+          href: getPermalink('/events/past-campaigns'),
         },
       ],
     },
     {
       text: 'Partnership',
-      href: getPermalink('/'),
+      href: getPermalink('/giving'),
     },
   ],
-  actions: [{ text: 'Giving', href: '/', target: '_blank' }],
+  actions: [{ text: 'Giving', variant: 'primary', href: '/giving', target: '_blank' }],
 };
 
 export const footerData = {
